@@ -1,49 +1,75 @@
+/*Limpar formatações padrão*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body{
-    font-size: 20px;
-    color: black;
- font-family: Helvetica;
- 
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica,  sans-serif;
+    background-color: #e6e6e6;
 }
-.grid-container{
-    display: grid;
-    grid-template-columns: 25% 70%;
-    grid-template-areas: 
-    'header header header header header header'
-    'menu main main main main main'
-    'footer ';
-}
-.grid-container > div{
-    font-family: Helvetica;
-    text-align: center;
-    grid-template-columns: auto 25% 70% auto;
-    float: left;
-}
+
+/*
+*****Layout*****
+*/
+
 header{
-    color: white;
-    padding: 50px;
+    background-color: #0088f7;
+    padding: 15px;
     text-align: center;
-    font-size: 50px;
-    background-color: rgb(30, 68, 124);
-    ;
-    ;
-    font-weight: bold;
-}
-menu {
-    font-size: 15px;
-background-color: lightgray;
-color: black;
-float: left;
-height: 1000px;
-
-}
-
-main {
-    font-size: 15px;
-    float: top-right;
-    padding-block: 10px;
     
 }
 
-.padding{
-    padding-right: 100px;
+#area-logo, #area-menu{
+    padding: 10px;
+}
+
+/*Postagens*/
+
+#postagens{
+    background-color: white;
+    width: ;
+}
+
+
+
+
+
+
+
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: #ccc;
+}
+
+/*Formatação dos links*/
+a{
+    text-decoration: none;
+}
+a:link, a:visited{
+    color: #ffffff;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header a:link, header a:visited {
+    color: white;
+    padding: 8px 12px;
+}
+
+header a:hover{
+    color: rgb(25, 0, 255);
+    background: white;
+    text-decoration: none;
+    
+}
+
+
+.blue{
+    color: blue;
 }
