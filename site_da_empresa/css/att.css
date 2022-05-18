@@ -1,7 +1,10 @@
+/*Formatação para Home*/
 #home{
     color: white;
 }
 
+
+/*Deixar as barras para separar conteudo*/
 .caixa{
     padding: 60px 0;
     border-bottom: 1px solid #e5e5e5;
@@ -11,6 +14,8 @@
     border-top: 1px solid #e5e5e5;
 }
 
+
+/*Formatações Gerais*/
 footer p a{ 
     margin: 5px 15px;
 }
