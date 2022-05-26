@@ -1,3 +1,3 @@
-# Projeto Primeiro Semestre
+# Projeto para Faculdade
 
-códigos atualizados 
+projeto do primeiro semestre da faculdade, feito com html/css e bootstrap
