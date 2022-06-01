@@ -1,5 +1,5 @@
 
-<h2> Projeto Primeiro Semestre da Faculdade: </h2>
+<h2> Projeto de Empreendedorismo / Primeiro Semestre da Faculdade: </h2>
 
 <hr>
 
