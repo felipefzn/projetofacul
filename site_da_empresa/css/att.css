@@ -1,10 +1,19 @@
 /*Formatação para Home*/
 #home{
     color: white;
-    
-    
 }
 
+/*Mudar a barra de scroll*/
+  ::-webkit-scrollbar {
+    background: transparent;
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #606060;
+
+    border-radius: 100px;
+  }
 
 /*Deixar as barras para separar conteudo*/
 .caixa{
@@ -18,7 +27,7 @@
 
 .caixa-t-contato{
     border-top: 1px solid #e5e5e5;
-    margin-bottom: ;
+    
 }
 
 
@@ -37,6 +46,11 @@ main{
 
 img.wtborder{
     border: none;
+}
+
+
+.logo{
+    filter: drop-shadow(2x 4px 6px #121212);
 }
 
 
